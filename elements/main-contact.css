@@ -1,0 +1,111 @@
+.contact-me {
+    background-color: rgba(67, 186, 253, 0.06);
+
+    color: var(--black);
+    font-size: 24px;
+
+    padding-top: 67px;
+    padding-bottom: 190px;
+
+    margin-bottom: 208px;
+}
+
+.contact-me-wrapper {
+    background-image: url("../images/contactme.png");
+    background-size: 856px;
+    background-repeat: no-repeat;
+    background-position: 102% 84%;
+}
+
+.contact-me-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-me-title {
+    color: #220BE8;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 17.28px;
+
+    margin-bottom: 10px;
+}
+
+.contact-me-description {
+    padding-bottom: 160px;
+}
+
+.contact-me-form-wrapper {
+    width: 653px;
+    text-align: center;
+}
+
+.contact-me-form-wrapper > *:not(:last-child) {
+    margin-bottom: 81px;
+}
+
+.form-input::placeholder {
+    color: var(--black);
+    font-size: 32px;
+}
+
+.form-input {
+    width: 653px;
+    height: 94px;
+
+    padding: 22px 10px 24px 55px;
+
+    border: none;
+    outline: none;
+
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+
+    font-family: Poppins;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.form-textarea {
+    width: 653px;
+    height: 265px;
+
+    padding: 22px 10px 0px 55px;
+
+    border: none;
+    outline: none;
+    resize: none;
+
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+
+    font-family: Poppins;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.form-text::placeholder {
+    color: var(--black);
+    font-size: 32px;
+}
+
+
+.form-textarea::placeholder {
+    color: var(--black);
+    font-size: 32px;
+}
+
+.contact-me-button {
+    width: 327px;
+    height: 94px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    background: var(--white);
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: var(--black);
+    font-family: var(--poppins-family);
+    font-size: 32px;
+}

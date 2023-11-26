@@ -1,0 +1,149 @@
+.footer {
+    background-color: rgba(255, 214, 150, 0.2);
+
+    font-family: var(--jost-family);
+    color: var(--black);
+    font-size: 32px;
+
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 88px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column > * {
+    margin-bottom: 32px;
+}
+
+.footer-column_first {
+    width: 13%;
+}
+
+.footer-column_middle {
+    width: 15%;
+}
+
+.footer-column_last {
+    width: 20%;
+}
+
+.footer-logo {
+    letter-spacing: 16.8px;
+    margin-bottom: 50px;
+}
+
+.footer-form-wrapper {
+    position: relative;
+    left: -65px;
+}
+
+.footer-input {
+    width: 323px;
+
+    padding: 24px 98px 28px 33px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 30px;
+    background: var(--black);
+
+    color: var(--white);
+    font-weight: 700;
+    font-family: Jost;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.subscribe-button {
+    position: absolute;
+    left: 262px;
+
+    width: 178px;
+
+    padding: 24px 16px 28px 17px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 30px;
+    background: #F965FC;
+    
+    color: var(--white);
+    font-weight: 700;
+    font-family: Jost;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-weight: 700;
+}
+
+.footer-line {
+    height: 3px;
+
+    background: var(--black);
+    
+    margin-block: 88px;
+}
+
+.footer-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -18px;
+}
+
+.footer-social-media {
+    display: flex;
+}
+
+.footer-social-media > * {
+    margin-right: 50px;
+}
+
+.footer-social-media > * { 
+    width: 76px;
+    height: 76px;
+    overflow: hidden;
+}
+
+.footer-social-media > *:last-child {
+    margin-right: 0px;
+}
+
+.youtube {
+    position: relative;
+    top: 22px;
+    left: 2px;
+}
+.instagram {
+    position: relative;
+    top: 16px;
+    left: 16px;
+
+}
+.facebook {
+    position: relative;
+    top: 19px;
+    left: 27px;
+}
+
+.linkedin {
+    position: relative;
+    top: 18px;
+    left: 18px;
+}
+
+.footer-input::placeholder {
+    color: var(--white);
+}

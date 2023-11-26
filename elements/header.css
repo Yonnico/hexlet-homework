@@ -1,0 +1,20 @@
+.header {
+    color: #686565;
+    font-size: 30px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 45px;
+}
+
+.header-menu > * {
+    padding-right: 78px;
+}
+
+.header-menu > *:last-child {
+    padding-right: 0;
+}

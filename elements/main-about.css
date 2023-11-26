@@ -1,0 +1,35 @@
+.about-me-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("../images/aboutme.png");
+    background-size: 925px;
+    background-repeat: no-repeat;
+    background-position: 122% top;
+
+    height: 925px;
+    margin-bottom: 301px;
+
+}
+
+.about-me-content{
+    width: 415px;
+}
+
+.about-me-title {
+    color: var(--blue);
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 16.8px;
+
+    margin-bottom: 14px;
+}
+
+.about-me-description {
+    color: var(--black);
+    font-size: 24px;
+
+    margin-bottom: 26px;
+}
+

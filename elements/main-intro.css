@@ -1,0 +1,47 @@
+.intro-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin-block:156px;
+}
+
+.intro-subtitle {
+    color: var(--blue);
+    font-size: 30px;
+}
+
+.intro-title {
+    color: var(--blue);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h1 > span {
+    color: #F2BD00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.intro-description {
+    width: 616px;
+    height: 72px;
+
+    color: #383838;
+    font-size: 24px;
+
+    margin-bottom: 111px;
+}
+
+.my-project-button {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    margin-left: 79px;
+}
+
+.intro-img {
+    width: 564px;
+    height: 564px;
+
+    position: relative;
+    left: 36px;
+}
